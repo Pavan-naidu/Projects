@@ -120,3 +120,13 @@ input{
     font-size: small;
     display: none;
 }
+
+.author{
+    position: absolute;
+    right: 10px;
+    font-size: 10px;
+    bottom: 10px;
+    color: #3a1764;
+    cursor: pointer;
+    font-style: none;
+}
