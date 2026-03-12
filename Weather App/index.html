@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+        <div class="AppName">
+            <p>==> WEATHER <== </p>
+        </div>
+        <div class="search">
+            <input id="search_input" type="text" placeholder="   Enter Location" spellcheck="false">
+            <button id="btn">    
+                <!-- <img src="Images/search_icon.png" alt="Search_Icon"> Search -->
+                 <i class="fa-brands fa-sistrix"></i>
+            </button>
+        </div>
+        <div class="error" >
+            <p>Please enter valid place</p>
+        </div>
+        <!-- weather -->
+        <div class="weather">
+            <img id="weather_img" src="Images/rain.png" alt="Weather_icon">
+            <h1 class="temp">22°C</h1>
+            <h3 class="city">New York</h3>
+            <div class="details">
+                <!-- humidity col  -->
+                <div class="col">
+                    <img src="Images/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <P>Humidity</P>
+                    </div>
+                </div>
+                    <!-- wind col  -->
+                <div class="col">
+                    <img src="Images/wind.png" alt="wind">
+                    <div>
+                        <p class="wind">15km/hr</p>
+                        <P>Wind Speed</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
