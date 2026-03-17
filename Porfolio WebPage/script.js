@@ -20,7 +20,3 @@ close_menu.addEventListener("click", () => {
 })
 
 
-
-
-
-
